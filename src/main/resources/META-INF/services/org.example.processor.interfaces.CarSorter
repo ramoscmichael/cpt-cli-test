@@ -1,0 +1,4 @@
+org.example.processor.impl.sorter.PriceSorter
+org.example.processor.impl.sorter.ReleaseYearSorter
+org.example.processor.impl.sorter.TypeSorter
+org.example.processor.impl.sorter.CurrencyTypePriceSorter

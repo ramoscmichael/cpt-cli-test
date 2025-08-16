@@ -1,0 +1,242 @@
+[
+	{
+		"brand": "Toyota",
+		"releasedDate": "2023-01-15",
+		"type": "SUV",
+		"model": "RAV4",
+		"price": {
+			"currency": "USD",
+			"price": 25000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 23000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 20000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 2800000.0
+			}
+		]
+	},
+	{
+		"brand": "Honda",
+		"releasedDate": "2022-11-20",
+		"type": "Sedan",
+		"model": "Civic",
+		"price": {
+			"currency": "USD",
+			"price": 22000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 20000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 18000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 2500000.0
+			}
+		]
+	},
+	{
+		"brand": "Ford",
+		"releasedDate": "2023-03-10",
+		"type": "Truck",
+		"model": "F-150",
+		"price": {
+			"currency": "USD",
+			"price": 35000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 32000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 28000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 3900000.0
+			}
+		]
+	},
+	{
+		"brand": "Tesla",
+		"releasedDate": "2023-02-05",
+		"type": "SUV",
+		"model": "Model X",
+		"price": {
+			"currency": "USD",
+			"price": 80000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 75000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 65000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 8800000.0
+			}
+		]
+	},
+	{
+		"brand": "BMW",
+		"releasedDate": "2022-09-12",
+		"type": "Sedan",
+		"model": "330i",
+		"price": {
+			"currency": "USD",
+			"price": 45000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 42000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 37000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 5000000.0
+			}
+		]
+	},
+	{
+		"brand": "Audi",
+		"releasedDate": "2023-04-25",
+		"type": "SUV",
+		"model": "Q5",
+		"price": {
+			"currency": "USD",
+			"price": 48000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 45000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 40000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 5300000.0
+			}
+		]
+	},
+	{
+		"brand": "Chevrolet",
+		"releasedDate": "2023-05-18",
+		"type": "Truck",
+		"model": "Silverado",
+		"price": {
+			"currency": "USD",
+			"price": 40000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 37000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 33000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 4400000.0
+			}
+		]
+	},
+	{
+		"brand": "Mercedes-Benz",
+		"releasedDate": "2022-12-01",
+		"type": "Sedan",
+		"model": "C-Class",
+		"price": {
+			"currency": "USD",
+			"price": 55000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 52000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 46000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 6100000.0
+			}
+		]
+	},
+	{
+		"brand": "Nissan",
+		"releasedDate": "2023-08-22",
+		"type": "SUV",
+		"model": "Rogue",
+		"price": {
+			"currency": "USD",
+			"price": 30000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 28000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 25000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 3300000.0
+			}
+		]
+	},
+	{
+		"brand": "Hyundai",
+		"releasedDate": "2023-04-14",
+		"type": "Sedan",
+		"model": "Elantra",
+		"price": {
+			"currency": "USD",
+			"price": 23000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 21000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 19000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 2600000.0
+			}
+		]
+	}
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<cars
+		><car
+		><brand>Toyota</brand>
+		<releaseDate>2023-01-15</releaseDate>
+		<type>SUV</type>
+		<model>RAV4</model>
+		<price currency="USD">25000.0</price>
+		<prices
+			><price currency="EUR">23000.0</price>
+			<price currency="GBP">20000.0</price>
+			<price currency="JPY">2800000.0</price>
+		</prices>
+	</car>
+	</cars>

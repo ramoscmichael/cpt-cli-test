@@ -1,0 +1,3 @@
+org.example.processor.impl.filter.BrandFilter
+org.example.processor.impl.filter.ReleaseDateFilter
+org.example.processor.impl.filter.PriceFilter

@@ -1,0 +1,3 @@
+org.example.processor.impl.output.JSONCarOutputFormat
+org.example.processor.impl.output.TableCarOutputFormat
+org.example.processor.impl.output.XMLCarOutputFormat

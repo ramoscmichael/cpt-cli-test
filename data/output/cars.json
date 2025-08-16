@@ -1,0 +1,26 @@
+[
+	{
+		"brand": "Toyota",
+		"releasedDate": "2023-01-15",
+		"type": "SUV",
+		"model": "RAV4",
+		"price": {
+			"currency": "USD",
+			"price": 25000.0
+		},
+		"prices": [
+			{
+				"currency": "EUR",
+				"price": 23000.0
+			},
+			{
+				"currency": "GBP",
+				"price": 20000.0
+			},
+			{
+				"currency": "JPY",
+				"price": 2800000.0
+			}
+		]
+	}
+]
