@@ -158,7 +158,7 @@ public final class App implements Runnable {
 
     public static void main(String[] args )
     {
-        App app = new App(new PrintWriter(System.out));
+        App app = new App(new PrintWriter(System.out, true));
         app.execute(args);
     }
 }

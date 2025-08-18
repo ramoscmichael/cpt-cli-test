@@ -26,7 +26,7 @@ public class JSONCarOutputFormat implements CarOutputFormat {
     @Override
     public void output(Stream<Car> cars, CarParam param, PrintWriter out) {
 
-        System.out.println("Output: " + param.getOutOption());
+        out.println("Output: " + param.getOutOption());
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(LocalDate.class, new LocalDateAdapter(dateTimeFormatter))
                 .create();

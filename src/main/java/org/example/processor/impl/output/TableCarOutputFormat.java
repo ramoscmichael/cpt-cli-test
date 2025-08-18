@@ -17,18 +17,18 @@ public class TableCarOutputFormat implements CarOutputFormat {
 
     @Override
     public void output(Stream<Car> cars, CarParam param, PrintWriter out) {
-        System.out.println("Output:");
-        System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n",
+        out.println("Output:");
+        out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n",
                 "Brand",
                 "Release Date",
                 "Model",
                 "Type",
                 "Price",
                 "Prices");
-        System.out.println(String.valueOf("-").repeat(125));
+        out.println(String.valueOf("-").repeat(125));
         cars.forEach(c -> {
             // Data rows
-            System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n",
+            out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n",
                     c.getBrand(),
                     c.getReleasedDate(),
                     c.getModel(),

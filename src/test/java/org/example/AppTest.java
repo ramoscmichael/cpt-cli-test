@@ -13,7 +13,7 @@ public class AppTest
     @Test
     public void testHelpOption() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        App app = new App(new PrintWriter(out));
+        App app = new App(new PrintWriter(out, true));
 
         int exitCode = app.execute("-h");
         System.out.println(out.toString());
@@ -25,22 +25,25 @@ public class AppTest
     @Test
     void testNoOptions() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        App app = new App(new PrintWriter(out));
+        App app = new App(new PrintWriter(out, true));
 
         int exitCode = app.execute();
+
+        System.out.println(out.toString());
         assertEquals(2, exitCode);
     }
 
     @Test
-    void testTableOutput() {
+    void testTableOutput() throws Exception{
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        App app = new App(new PrintWriter(out));
+        App app = new App(new PrintWriter(System.out, true));
 
         int exitCode = app.execute(
                 "--brandsSrc", "./data/CarsBrand.csv",
                 "--carTypesSrc", "./data/carsType.xml"
         );
 
+        System.out.println(out.toString());
         assertEquals(0, exitCode);
     }
 
@@ -48,7 +51,7 @@ public class AppTest
     @Test
     void testJsonOutput() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        App app = new App(new PrintWriter(out));
+        App app = new App(new PrintWriter(out, true));
 
         int exitCode = app.execute(
                 "--brandsSrc", "./data/CarsBrand.csv",
@@ -60,13 +63,14 @@ public class AppTest
                 "--overwrite"
         );
 
+        System.out.println(out.toString());
         assertEquals(0, exitCode);
     }
 
     @Test
     void testXmlOutput() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        App app = new App(new PrintWriter(out));
+        App app = new App(new PrintWriter(out, true));
 
         int exitCode = app.execute(
                 "--brandsSrc", "./data/CarsBrand.csv",
@@ -78,6 +82,7 @@ public class AppTest
                 "--overwrite"
         );
 
+        System.out.println(out.toString());
         assertEquals(0, exitCode);
     }
 

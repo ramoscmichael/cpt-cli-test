@@ -32,7 +32,7 @@ public class XMLCarOutputFormat implements CarOutputFormat {
 
     @Override
     public void output(Stream<Car> cars, CarParam param, PrintWriter out) {
-        System.out.println("Output: " + param.getOutOption());
+        out.println("Output: " + param.getOutOption());
         try (FileWriter fileWriter = getFileWriter(param.getOutOption())) {
             XMLOutputFactory factory = XMLOutputFactory.newInstance();
             XMLStreamWriter writer = factory.createXMLStreamWriter(fileWriter);
